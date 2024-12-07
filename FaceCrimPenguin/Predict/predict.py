@@ -10,7 +10,7 @@ import os
 model = models.resnet18(pretrained=False)
 num_ftrs = model.fc.in_features
 model.fc = torch.nn.Linear(num_ftrs, 3)  # 3 sınıf için çıktı katmanı
-model.load_state_dict(torch.load("/Users/girayaksakal/Desktop/FaceCrimPenguin/FaceCrimPenguin/Predict/new_resnet18_terror_model.pth", map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("/app/predict/new_resnet18_terror_model.pth", map_location=torch.device('cpu')))
 model.eval()
 
 # Sınıf isimleri
