@@ -1,2 +1,2 @@
-# FaceCrimPenguin
+# FaceCrim for linux
  
