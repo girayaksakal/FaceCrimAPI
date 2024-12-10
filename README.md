@@ -1,2 +1,2 @@
-# FaceCrim for linux
+# FaceCrimAPI for amd64
  
